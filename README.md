@@ -1,83 +1,122 @@
-Student Performance Prediction System
+# Student Performance Prediction System
 
-Overview
+## Project Overview
 
-This project predicts a student's final marks using Machine Learning based on:
+The Student Performance Prediction System is a Machine Learning project that predicts a student's final marks based on:
 
 - Attendance Percentage
 - Study Hours
 - Internal Marks
 
-The project uses Python, Pandas, NumPy, Matplotlib, and Scikit-learn.
+The project includes data preprocessing, exploratory data analysis (EDA), machine learning model training, model comparison, and a Flask-based web application for predictions.
 
-Features
+---
 
-- Data preprocessing
-- Data visualization
-- Machine learning model training
-- Model evaluation
-- Prediction system
-- Saved trained model
+## Features
 
-Technologies Used
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Multiple Data Visualizations
+- Machine Learning Model Training
+- Model Comparison
+- Model Evaluation
+- Model Saving using Joblib
+- Flask Web Application
+- Student Performance Prediction
+
+---
+
+## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Scikit-learn
+- Flask
 - Joblib
 
-Project Structure
+---
 
-data/
+## Project Structure
 
-- student_performance.csv
-- cleaned_student_performance.csv
+Project_2_Student_Performance_Prediction/
 
-src/
+├── data/
 
-- data_preprocessing.py
-- visualization.py
-- train_model.py
-- predict.py
+├── images/
 
-models/
+├── models/
 
-- student_model.pkl
+├── screenshots/
 
-images/
+├── src/
 
-- attendance_vs_marks.png
-- studyhours_vs_marks.png
+├── templates/
 
-Model Performance
+├── app.py
 
-- MAE: 0.25
-- R² Score: 0.99
+├── requirements.txt
 
-How to Run
+└── README.md
 
-1. Install dependencies
+---
 
-pip install -r requirements.txt
+## Visualizations
 
-2. Run preprocessing
+- Attendance vs Final Marks
+- Study Hours vs Final Marks
+- Marks Distribution Histogram
+- Correlation Heatmap
+- Box Plot of Scores
+- Model Comparison Graph
 
-python src/data_preprocessing.py
+---
 
-3. Generate visualizations
+## Machine Learning Models
 
-python src/visualization.py
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
-4. Train model
+---
 
-python src/train_model.py
+## Model Evaluation
 
-5. Run prediction system
+Metrics Used:
 
-python src/predict.py
+- Mean Absolute Error (MAE)
+- R² Score
 
-Author
+Best Performing Model:
+- Linear Regression
 
-Internship Project - CodeVedX AI/ML Internship
+---
+
+## Flask Web Application
+
+The project includes a Flask-based web interface where users can enter:
+
+- Attendance
+- Study Hours
+- Internal Marks
+
+and receive predicted final marks instantly.
+
+---
+
+## Future Improvements
+
+- Larger Real-World Dataset
+- Student Dashboard
+- Database Integration
+- Cloud Deployment
+
+---
+
+## Author
+
+Siddhi Mohite
+
+AI/ML Internship Project 
